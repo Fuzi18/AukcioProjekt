@@ -9,6 +9,7 @@ public class Festmeny {
         private LocalDateTime legutolsoLicitIdeje;
         private boolean elkelt;
 
+
         public Festmeny(String cim, String festo, String stilus) {
                 this.cim = cim;
                 this.festo = festo;
