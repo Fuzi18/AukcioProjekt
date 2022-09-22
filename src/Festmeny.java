@@ -51,14 +51,14 @@ public class Festmeny {
         }
 
         public void licit(int mertek) {
-                int newAmount = 100;
+                int ossz = 100;
 
                 if (licitekSzama > 0) {
-                        newAmount = (int)(legmagasabbLicit * 1.10);
+                        ossz = (int)(legmagasabbLicit * 1.10);
                 }
 
                 licitekSzama++;
-                legmagasabbLicit = newAmount;
+                legmagasabbLicit = ossz;
                 legutolsoLicitIdeje = LocalDateTime.now();
         }
 
